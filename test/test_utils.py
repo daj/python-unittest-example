@@ -7,5 +7,9 @@ class UtilsTests(unittest.TestCase):
 		utils = Utils()
 		self.assertEqual(utils.example(), True)
 
+	def testExampleMultipleTests(self):
+		utils = Utils()
+		self.assertEqual(utils.example(), True)
+
 if __name__ == '__main__':
 	unittest.main()
